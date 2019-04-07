@@ -85,8 +85,8 @@ holiday_hash.each do |season, holiday|
     bbqdays = []
     if supplies.include?("BBQ")
       bbqdays << day
-      return bbqdays
     end
   end
 end
+bbqdays
 end
